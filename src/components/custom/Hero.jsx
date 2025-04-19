@@ -18,7 +18,7 @@ function Hero() {
         <InteractiveHoverButton className='mt-8 text-base sm:text-lg'>Get Started</InteractiveHoverButton>
       </Link>
 
-      <img src="/LandingPage.png" className="-mt-20"  />
+      <img src="/LandingPage.png" className="xl:-mt-20 md:-mt-8 lg:-mt-13 "  />
     </div>
   )
 }
