@@ -25,8 +25,8 @@ function Header() {
 
   const login = useGoogleLogin({
     onSuccess: (tokenResponse) => getUserProfile(tokenResponse),
-    onError: (error) => console.log(error),
-    flow: "implicit",
+    onError: (error) => console.log(error)
+    // flow: "implicit",
   });
 
   const getUserProfile = async (tokenInfo) => {

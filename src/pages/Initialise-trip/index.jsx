@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import GooglePlacesAutocomplete from "react-google-places-autocomplete";
 import {
   Input,
@@ -11,7 +11,6 @@ import {
   useUser} from "@/index";
 import { toast } from "sonner";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
-import { doc, setDoc} from "firebase/firestore";
 import { databases } from "@/services/AppwriteConfig"; 
 import { useNavigate } from "react-router-dom";
 
@@ -71,20 +70,7 @@ function InitializeTrip() {
     setLoading(false); 
   }; 
 
-  // const saveTrip = async (tripData )=>{
-  //   const user=JSON.parse(localStorage.getItem('user'))
-  //   const docId = Date.now().toString();
 
-  //   await setDoc(doc(db, "AITrips", docId ), {
-  //     userSelection: {
-  //       ...formData,
-  //       destination: formData?.destination?.label || "",
-  //     },
-  //     tripData: tripData,
-  //     userEmail: user?.email,
-  //     id: docId
-  //   });
-  // }
 
   const saveTrip = async (tripData) => {
     const docId = Date.now().toString(); // or use a custom ID like `Date.now().toString()`

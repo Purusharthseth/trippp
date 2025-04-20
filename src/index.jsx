@@ -16,7 +16,6 @@ import {
     DialogTitle,
     DialogTrigger,
   } from "@/components/ui/dialog"
-import { db } from './services/FirebaseConfig'
 import Viewtrip from './pages/view-trip/[tripId]'
 import { databases } from './services/AppwriteConfig'
 import InfoSection from './components/View-Trip/InfoSection'
@@ -33,5 +32,5 @@ import useUser, { UserContext, UserContextProvider } from './context/UserContext
 
 export { InitializeTrip, Home, Hero , Header, Button, AuroraText, InteractiveHoverButton, Input, SelectTravelsOptions, 
 SelectBudgetOptions, chatSession, AI_PROMPT, Dialog,DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger, 
-db, Viewtrip, databases, InfoSection, Hotels, Places, MagicCard, PlaceCard, GetPlacesDetails, HotelCard, PHOTO_REF_URL, Popover,
+Viewtrip, databases, InfoSection, Hotels, Places, MagicCard, PlaceCard, GetPlacesDetails, HotelCard, PHOTO_REF_URL, Popover, 
 PopoverContent, PopoverTrigger, useDialog, DialogContext, DialogContextProvider, MyTrips, useUser, UserContext , UserContextProvider}
