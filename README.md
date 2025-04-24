@@ -26,3 +26,5 @@ AI-powered trip planner that helps you design personalized travel itineraries in
 
 ### Authentication
 - Google OAuth via `@react-oauth/google`
+
+![Landing Page](public/LandingPage.png)
