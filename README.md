@@ -1,12 +1,28 @@
-# React + Vite
+# trippp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-powered trip planner that helps you design personalized travel itineraries in seconds.
 
-Currently, two official plugins are available:
+## Live Demo
+[trippp](https://trippp-omega.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Generate custom travel itineraries using AI
+- Modern, responsive UI built with React + Vite
+- Authentication and backend powered by Appwrite
+- Google Places autocomplete for destination input
+- Smooth animations and interactive dialogs
 
-## Expanding the ESLint configuration
+## Tech Stack
+### Frontend
+- React
+- Vite
+- Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend
+- Appwrite
+
+### AI
+- Google Generative AI API
+
+### Authentication
+- Google OAuth via `@react-oauth/google`

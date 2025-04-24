@@ -16,14 +16,6 @@ function Viewtrip() {
         tripId
       );
       setTrip(response);
-      
-        // const parsedTripData =
-        //   typeof response.tripData === "string"
-        //     ? JSON.parse(response.tripData)
-        //     : response.tripData;
-        // console.log(parsedTripData);
-
-      //   return response;
     } catch (error) {
       console.error("No such document or error fetching trip:", error.message);
       toast.error("No trip Found!");

@@ -3,12 +3,6 @@ import React, { useEffect } from "react";
 
 function Hotels({ trip }) {
   const tripData = typeof trip.tripData === "string" ? JSON.parse(trip.tripData) : trip.tripData;
-    useEffect(() => {
-      if (tripData) {
-        console.log(tripData);
-      }
-    }, [tripData]);
-
 
   return (
     <div>

@@ -26,7 +26,6 @@ function MyTrips() {
       );
 
       setUserTrips(result?.documents);
-      console.log(userTrips);
       
     } catch (error) {
       console.error("Error fetching user trips:", error);
